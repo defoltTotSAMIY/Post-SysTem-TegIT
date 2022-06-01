@@ -1,17 +1,18 @@
-import { useState } from "react";
-import Index from "./from lesson/index";
+
+import Table from "./Components/Table/Table";
+import Home from "./Pages/Home Page/Home";
+import Login from "./Pages/Login/Login";
 
 
 
 
 function App() {
 
-  const [user, setUser] = useState("Hello World");
 
   return (
-    
-    <Index />
-    );
-  }
-  
+
+    <Home />
+  );
+}
+
 export default App;
