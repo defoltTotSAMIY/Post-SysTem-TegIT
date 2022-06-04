@@ -1,6 +1,6 @@
 import React from 'react';
 import Table from '../../Components/Table/Table';
-import { tbodyT, theadT } from '../../Components/Table/TableItems';
+// import { tbodyT, theadT } from '../../Components/Table/TableItems';
 import "./Home.css"
 
 function Home() {

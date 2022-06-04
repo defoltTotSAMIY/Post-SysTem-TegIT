@@ -1,4 +1,5 @@
 
+import React , { memo } from "react";
 import Table from "./Components/Table/Table";
 import Home from "./Pages/Home Page/Home";
 import Login from "./Pages/Login/Login";
@@ -6,15 +7,11 @@ import Login from "./Pages/Login/Login";
 
 
 
-function App() {
-
-
+function Pos()
+{
   return (
-
-    <Home />
-
-
-  );
+    <Login />
+  )
 }
 
-export default App;
+export default memo(Pos);
